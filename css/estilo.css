@@ -1,0 +1,123 @@
+body {
+	background: #34495e;
+	margin: 0px;
+	padding: 0px;
+	font-family: sans-serif;	
+}
+
+html, body, #home{
+	height: 100%;
+	overflow-x: hidden;
+}
+
+.caixa {
+	width: 500px;
+	height: 500px;
+	padding: 40px;
+	position: absolute;
+	top:50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	background: #343a40;
+	text-align: left;
+	border-radius: 15px;
+}
+
+.caixaPostagens {
+	width: 500px;
+	height: 500px;
+	padding: 40px;
+	position: relative;
+	left: -150px;
+	top: 70px;
+	background: #343a40;
+	text-align: left;
+	border-radius: 15px;
+	margin-top: 50px;
+}
+.formatacaoh1 {
+	margin-bottom: 40px;
+}
+
+h1 {
+	text-align: center;
+	color: white;
+	font-size: 20px;
+}
+
+h1.formatacaobotao {
+	text-transform: uppercase;
+	letter-spacing: 3px;
+	margin-bottom: 30px;
+}
+
+input.botaoentrar {
+	background: #343a40;
+	margin-left: 10px;
+	color: white;
+	display: block;
+	margin: 10px auto;
+	text-align: center;
+	border:2px solid #34495e;
+	width: 200px;
+}
+
+a.botaoentrar {
+	background: #343a40;
+	margin-left: 10px;
+	color: white;
+	display: block;
+	margin: 10px auto;
+	text-align: center;
+	border:2px solid #34495e;
+	width: 200px;
+}
+
+input.botaoentrar:hover {
+	background:#2ecc71;
+}
+
+
+
+a.filtrar{
+	margin-right: 10px;
+}
+
+.navbar-dark .navbar-nav .nav-link{
+  color: white;
+  margin-left: 10px;
+}
+
+.navbar-dark .navbar-nav .nav-link:hover {
+	color: #9b70e1;
+}
+
+.navbar-dark .navbar-nav .nav-link .dropdown .dropdown-toggle, button{
+  color: white;
+  margin-left: 10px;
+  background-color: #34495e;
+}
+
+p{
+	color: white;
+}
+
+
+.postagensOutras {
+	background: #343a40;
+	border-radius: 15px;
+	position: relative;
+	top: 150px;
+	left: 150px;
+	margin: 6px;
+	height: 100%;
+	text-align: center;
+}
+
+ hr{
+  border-color:#aaa;
+  box-sizing:content-box;
+  height:100%;  
+}
+
+
